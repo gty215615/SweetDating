@@ -97,7 +97,7 @@ const LayoutBase = props => {
           id='wrapper'
           className={'relative flex justify-between w-full h-full mx-auto'}>
           {/* PC端左侧 */}
-          <div className='w-52 hidden xl:block relative z-10'>
+          <div className='w-52 hidden xl:!block relative z-10'>
             <div className='py-4 px-2 sticky top-0 h-screen flex flex-col justify-between'>
               <div className='select-none'>
                 {/* 抬头logo等 */}
