@@ -35,12 +35,12 @@ const Footer = ({ title }) => {
             />
             <div>
               <h1 className='text-lg'>{title}</h1>
-              <i className='fas fa-copyright' />
-              <a
+              {/* <i className='fas fa-copyright' /> */}
+              {/* <a
                 href={siteConfig('LINK')}
                 className='underline font-bold justify-start  '>
                 {siteConfig('AUTHOR')}
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const Footer = ({ title }) => {
 
           <div className='flex justify-between items-center gap-x-2'>
             <div className='flex items-center gap-x-4'>
-              <AnalyticsBusuanzi />
+              {/* <AnalyticsBusuanzi /> */}
               <SocialButton />
             </div>
           </div>

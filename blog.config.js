@@ -4,10 +4,10 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '1987e7480cb18063aa1eebc40f3d7323,en:1987e7480cb18063aa1eebc40f3d7323',
-    // https://treasure-gruyere-84d.notion.site/1987e7480cb18063aa1eebc40f3d7323?v=1987e7480cb1814dbd42000c456d7d57&pvs=4
-  THEME: process.env.NEXT_PUBLIC_THEME || 'game', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
-  LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
+    '19e7e7480cb180738a65ed96f0155f96,en:19e7e7480cb180738a65ed96f0155f96',
+    // https://treasure-gruyere-84d.notion.site/19e7e7480cb180738a65ed96f0155f96?v=19e7e7480cb18188abc8000c5c80bcea&pvs=4
+  THEME: process.env.NEXT_PUBLIC_THEME || 'magzine', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+  LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2025, // e.g if leave this empty, current year will be used.
 
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
